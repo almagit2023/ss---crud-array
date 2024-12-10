@@ -1,0 +1,76 @@
+.formStyle {
+  border: 1px solid;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: lightcyan;
+}
+
+.formStyle button {
+  border: none;
+  background: orangered;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+}
+
+.formStyle button:hover {
+  background-color: greenyellow;
+  color: black;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.formStyle input {
+  height: 2.4rem;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.formStyle label {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.resultData {
+  margin: 0 auto;
+  background: lightgray;
+  padding: 1rem;
+  width: 50%;
+  margin-top: 1rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resultData button {
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.resultData button:hover {
+  background-color: orangered;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btnGroup button {
+  margin-left: 1rem;
+}
+
+.btnGroup button:nth-child(2) {
+  background-color: orangered;
+  color: white;
+}
